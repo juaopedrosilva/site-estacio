@@ -1,3 +1,4 @@
+/* Header Styles */
 .header {
   display: flex;
   justify-content: space-between;
@@ -9,13 +10,14 @@
 }
 
 .header .logo img {
-  height: 50px;
-  /* Adjust logo size */
+  height: 50px; /* Adjust logo size */
 }
 
 .header ul {
   display: flex;
   list-style: none;
+  padding: 0; /* Remove default padding */
+  margin: 0;  /* Ensure no extra spacing */
 }
 
 .header ul li {
@@ -27,8 +29,14 @@
   color: #5C5F6A;
   font-weight: 400;
   font-size: 14px;
+  transition: color 0.3s ease; /* Smooth color change */
 }
 
+.header ul li a:hover {
+  color: #202533; /* Add hover effect */
+}
+
+/* Sub-header Styles */
 .sub-header {
   width: 100%;
   font-size: 14px;
@@ -38,6 +46,7 @@
   padding: 10px 0;
 }
 
+/* Features Section */
 .features {
   max-width: 1092px;
   margin: 0 auto;
@@ -47,26 +56,26 @@
 }
 
 .features .card-title {
-font-size: 16px;
-color: #202533;
-margin-bottom:  12px;
+  font-size: 16px;
+  color: #202533;
+  margin-bottom: 12px;
 }
 
 .features .card-description {
-color: #5C5F6A;
-font-size: 14px;
-
+  font-size: 14px;
+  color: #5C5F6A;
+  line-height: 1.6; /* Improve readability */
 }
 
-
+/* Circle Element */
 .circle {
   background-color: #F6F6F6;
   width: 48px;
   height: 48px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   margin-bottom: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
