@@ -15,6 +15,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Estacio Shop é uma página institucional no formato de eccomerce, responsiva, para usar em diversos tipos de micros, pequenas e médias empresas. Contém as seguintes funções:  
 
 - Adicionar o carrinho 
+- Remover item do carrinho
 - Finalizar o pedido via whatstapp
 
 ## 📄 Página do Projeto
