@@ -86,7 +86,7 @@ function renderCart() {
   cartList.innerHTML = "";
 
   if (cart.length === 0) {
-    cartList.innerHTML = "<p>Your cart is empty.</p>";
+    cartList.innerHTML = "<p>Carinho vazio.</p>";
     return;
   }
 
@@ -109,6 +109,9 @@ function renderCart() {
                 style: 'currency',
                 currency: 'BRL'
               }).format(product.price)}
+              <button data-id="${product.id}" class="remove-from-cart">
+                Remover
+              </button>
             </span>
           </div>
         </div>
