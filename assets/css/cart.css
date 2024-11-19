@@ -66,3 +66,12 @@
 .cart-item-price {
     font-size: 14px;
 }
+
+@media (max-width: 768px) {
+    .section-cart-checkout {
+        width: 100%;
+        justify-content: center;
+    }
+
+    
+}
