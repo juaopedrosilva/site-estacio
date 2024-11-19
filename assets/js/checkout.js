@@ -24,7 +24,10 @@ document.addEventListener("DOMContentLoaded", () => {
       if (myCart && myCart.length > 0) {
          message += ` *Itens no Carrinho*: %0A`;
          myCart.forEach(item => {
-            message += ` - ${encodeURIComponent(item.title)} (Preço: ${encodeURIComponent(item.price)})%0A`;
+            message += ` - ${encodeURIComponent(item.title)} (Preço: ${encodeURIComponent(new Intl.NumberFormat('pt-BR', {
+               style: 'currency',
+               currency: 'BRL'
+             }).format(item.price))})%0A`;
          });
       }
 

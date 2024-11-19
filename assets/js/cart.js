@@ -62,7 +62,10 @@ function renderProducts() {
             </span>
             <div class="card-item-container-tags-best-seller">
               <span class="card-item-content-tag-value-best-seller">
-                ${product.price}
+              ${new Intl.NumberFormat('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+              }).format(product.price)}
               </span>
                 <span class="card-item-content-tag1-best-seller add-to-cart"  data-id="${product.id}">
                 Adicionar
@@ -102,7 +105,10 @@ function renderCart() {
           </span>
           <div class="cart-item-info">
             <span class="cart-item-price">
-              ${product.price}
+             ${new Intl.NumberFormat('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+              }).format(product.price)}
             </span>
           </div>
         </div>
