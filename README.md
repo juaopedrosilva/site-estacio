@@ -1,5 +1,6 @@
 
-# DoctorCare
+# Estacio Shop
+
 <div align="center">
     <img src="./.github/image.png" width="80%">
 </div>
