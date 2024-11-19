@@ -1073,3 +1073,7 @@ a {
     padding-left: 32px;
   }
 }
+
+.add-to-cart {
+  cursor: pointer;
+}
