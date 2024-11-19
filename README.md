@@ -1,0 +1,1 @@
+https://www.figma.com/design/W8e4CfAYwYNKinTH9aQ3nR/Ecommerce-Web-UI-Kit-(Community)?node-id=1176-525&t=shH7wOWOEM5rjQ4H-1
