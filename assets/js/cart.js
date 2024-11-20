@@ -2,37 +2,71 @@
 const store = [
   {
     id: 1,
-    title: "Classic Monochrome Tees",
+    title: "Camisetas Monocromáticas Clássicas",
     image: "./assets/images/garment/garment1.png",
-    description: "Classic Monochrome Tees",
-    status: "IN STOCK",
+    description: "Camisetas Monocromáticas Clássicas",
+    status: "EM ESTOQUE",
     price: 27.00
   },
   {
     id: 2,
-    title: "Essential Neutrals",
+    title: "Neutros Essenciais",
     image: "./assets/images/garment/garment2.png",
-    description: "Essential Neutrals",
-    status: "IN STOCK",
+    description: "Neutros Essenciais",
+    status: "EM ESTOQUE",
     price: 22.00
   },
   {
     id: 3,
-    title: "UTRAANET Black",
+    title: "UTRAANET Preto",
     image: "./assets/images/garment/garment3.png",
-    description: "UTRAANET Black",
-    status: "IN STOCK",
+    description: "UTRAANET Preto",
+    status: "EM ESTOQUE",
     price: 42.00
   },
   {
     id: 4,
-    title: "Classic Monochrome Tees",
+    title: "Camisetas Monocromáticas Clássicas",
     image: "./assets/images/garment/garment4.png",
-    description: "Classic Monochrome Tees",
-    status: "IN STOCK",
+    description: "Camisetas Monocromáticas Clássicas",
+    status: "EM ESTOQUE",
     price: 35.00
   },
+  {
+    id: 5,
+    title: "Camiseta Estampa Tropical",
+    image: "./assets/images/garment/garment5.png",
+    description: "Camiseta com estampa tropical vibrante",
+    status: "EM ESTOQUE",
+    price: 30.00
+  },
+  {
+    id: 6,
+    title: "Camiseta Oversized Branca",
+    image: "./assets/images/garment/garment6.png",
+    description: "Camiseta oversized confortável e moderna",
+    status: "EM ESTOQUE",
+    price: 25.00
+  },
+  {
+    id: 7,
+    title: "Camiseta Estilo Vintage",
+    image: "./assets/images/garment/garment7.png",
+    description: "Camiseta com design retrô e único",
+    status: "EM ESTOQUE",
+    price: 40.00
+  },
+  {
+    id: 8,
+    title: "Camiseta Básica Preta",
+    image: "./assets/images/garment/garment8.png",
+    description: "Camiseta preta básica para o dia a dia",
+    status: "EM ESTOQUE",
+    price: 20.00
+  },
 ];
+
+
 
 // Cart data
 let cart = [];
